@@ -20,7 +20,10 @@ $(document).ready(function() {
 	
 		$("#wall").append(newContainer);
 		
+		 var span = str.fontcolor("white");
 	});
-	
-	
+	   
+
 });
+
+// var $("#message").val = str.fontcolor("white");
