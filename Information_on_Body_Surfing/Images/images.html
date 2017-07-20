@@ -5,10 +5,10 @@
     <title>Monterey Body Surfing Society</title>
 
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script src="../../Home/myscript.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="../../Home/styles.css">
+    <script src="../../Home/myscript.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../Home/styles.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -16,69 +16,100 @@
         <h1 id="header">Monterey Body Surfing Society</h1>
         <p id="motto">No Boards Required N.B.R.</p>
 
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div id="" class="text-center">
+        <div>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                        <a class="navbar-brand" href="../../Home/index.html"><img src="../../seal_logo.png"></a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div id="" class="text-center">
 
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../../Home/index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="../Information_on_Body_Surfing/info.html" role="button" aria-haspopup="true" aria-expanded="false">What is Body Surfing?</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="../Images/images.html">Images</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../Quotes/quotes.html">Quotes</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../Videos/videos.html">Videos</a>
+                                <ul class="nav nav-pills">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="index.html">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="info.html" role="button" aria-haspopup="true" aria-expanded="false">What is Body Surfing?</a>
+
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="../Information_on_Body_Surfing/Images/images.html">Images</a>
+
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="../Information_on_Body_Surfing/Quotes/quotes.html">Quotes</a>
+
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="../Information_on_Body_Surfing/Videos/videos.html">Videos</a>
+
+                                        </div>
+                                    </li>
+                                    <li><a href="../Upcoming_Events/events.html">Upcoming Events</a></li>
+
+                                </ul>
                             </div>
-                        </li>
-                        <li><a href="../../Upcoming_Events/events.html">Upcoming Events</a></li>
 
-                    </ul>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
+            </nav>
         </div>
 
         <div class="jumbotron">
-            <h1 id="Header">Check out these Pictures of body surfers</h1>
+            <h1 id="Header">Check out these Pictures of body surfers & Landscapes</h1>
             <img src="" />
 
         </div>
         <div class="container">
-            <h2>Bold Body Surfers</h2>
+            <h2>Bold Body Surfers & Landscapes</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    < </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img class="item" src ="http://mushburger.com/wp-content/uploads/body-surf.jpg" width:900%; height:900px;">
-                    </div>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="item" src="http://mushburger.com/wp-content/uploads/body-surf.jpg" "width:900%; height:900px;">
+                            </div>
 
-                    <div class="item">
-                        <img class="item" src="http://orig05.deviantart.net/56ef/f/2011/241/d/c/bodysurfing_in_perth_western_a_by_louisstone-d489jv0.jpg" "width:900%; height:900px;">
-                    </div>
+                            <div class="item">
+                                <img id="num1" class="item" src="Carmel-Beach.jpg" "width:900%; height:900px;">
+                            </div>
 
-                    <div class="item">
-                        <img class="item" src="https://s3.amazonaws.com/assets.makaiproject.com/assets/spree/products/515/product/89533190_Makai-Project-Handplane-in-Action.jpg?1397705725" alt::"New York" "width:900p%; height:900px;">
-                    </div>
-                </div>
+                            <div class="item">
+                                <img id="num2" class="item" src="https://s3.amazonaws.com/assets.makaiproject.com/assets/spree/products/515/product/89533190_Makai-Project-Handplane-in-Action.jpg?1397705725" alt:: "New York" "width:900p%; height:900px;">
+                            </div>
 
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+                            <div class="item">
+                                <img class="item" src="monterey-bay.jpg" alt:: "New York" "width:900p%; height:900px;">
+                            </div>
+
+                            <div class="item">
+                                <img class="item" src="http://orig05.deviantart.net/56ef/f/2011/241/d/c/bodysurfing_in_perth_western_a_by_louisstone-d489jv0.jpg" alt:: "New York" "width:900p%; height:900px;">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
             </div>
         </div>
 </body>
