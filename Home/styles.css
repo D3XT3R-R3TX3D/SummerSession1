@@ -55,7 +55,7 @@ h2 {
     background: rgba(65, 105, 225, 0.3);
 }
 
-#Header {
+#Header{
     color: #22c522;
     text-shadow: 2px 2px blue;
 }
@@ -63,6 +63,7 @@ h2 {
 #Content {
     color: rgba(216, 236, 20, 0.95);
     text-shadow: 2px 2px blue;
+    text-align: center;
 }
 
 .form-control {
@@ -143,5 +144,22 @@ textarea {
 }
 .navbar-brand {
   background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
-  width: 200px;
+  width: 20.
+}
+.menu{
+    font-weight:bold;
+    text-shadow:1px 1px black; 
+}
+#lol{
+     color: #22c522;
+    text-shadow: 2px 2px blue;
+    text-align: center;
+    font-weight: bold;
+}
+.Header{
+     color: #22c522;
+    text-shadow: 2px 2px blue; 
+}
+.lol{
+    font-size: 24px;
 }

@@ -94,3 +94,7 @@ margin{
   background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
   width: 200px;
 }
+.menu{
+    font-weight:bold;
+    text-shadow:1px 1px black; 
+}
